@@ -56,7 +56,7 @@
   <preference name="keepRunning"       value="false" />
 
   <icon src="icon.png" />
-  <gap:splash src="ios/screen-iphone-portrait-568h-2x.png" gap:platform="ios" width="640" height="1136" />
+  
 
   <!-- content src="http://www.w3.org/2010/05/video/mediaevents.html" / -->
 </widget>
