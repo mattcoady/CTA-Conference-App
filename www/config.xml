@@ -45,14 +45,14 @@
 
   <!-- android preferences -->
   <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
-  <preference name="android-minSdkVersion"      value="7" />
-  <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
-  <preference name="android-installLocation"    value="auto" />
-  <preference name="android-targetSdkVersion"   value="13" />
-  <preference name="android-maxSdkVersion"       value="17" />
-  <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />
-  <preference name="splashScreenDelay"       value="5000" />
-  <preference name="keepRunning"       value="false" />
+  <!--<preference name="android-minSdkVersion"      value="7" />-->
+  <!--&lt;!&ndash; android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. &ndash;&gt;-->
+  <!--<preference name="android-installLocation"    value="auto" />-->
+  <!--<preference name="android-targetSdkVersion"   value="13" />-->
+  <!--<preference name="android-maxSdkVersion"       value="17" />-->
+  <!--<preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />-->
+  <!--<preference name="splashScreenDelay"       value="5000" />-->
+  <!--<preference name="keepRunning"       value="false" />-->
 
   <icon src="icon.png" />
 
