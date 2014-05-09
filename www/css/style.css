@@ -161,7 +161,7 @@ section{
 }
 
 section a{
-  margin: 0 1em;
+  margin: 0 .8em;
   width: 70px;
   display: inline-block;
   text-transform: uppercase;
