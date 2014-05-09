@@ -122,6 +122,7 @@ img.sub-icon {
   position: absolute;
   top: 46%;
   width: 100%;
+  z-index: 10;
 }
 
 .agenda-item{
