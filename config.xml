@@ -1,48 +1,74 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<widget xmlns   = "http://www.w3.org/ns/widgets"
-        xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.phonegap.example"
-        versionCode = "10"
-        version     = "1.0.0" >
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id = "it.venerons.APPLICATION"
+        version = "1.0.0"
+        versionCode = "1">
 
-  <!-- versionCode is optional and Android only -->
-
-  <name>PhoneGap Example</name>
+  <name>APPLICATION NAME</name>
 
   <description>
-    An example for phonegap build docs.
+    APPLICATION DESCRIPTION
   </description>
 
-  <author href="https://build.phonegap.com" email="support@phonegap.com">
-    Hardeep Shoker
-  </author>
+  <author href="http://venerons.github.io" email="veneronslaboratories@gmail.com">Daniele Veneroni</author>
+
+  <!-- ICONS -->
+
+  <icon src="icon.png" /> <!-- default 512 pixels -->
+
+  <!-- SPLASH SCREENS -->
+
+  <gap:splash src="splash.png" /> <!-- default 320x480 pixels -->
+
+  <!-- PLATFORM SELECTION -->
+
+  <gap:platform name="ios" />
+
+  <!-- GENERAL PREFERENCES -->
+
+  <preference name="phonegap-version" value="3.1.0" />
+  <preference name="orientation" value="default" />
+  <preference name="fullscreen" value="true" /> <!-- remove the upper bar on iOS and Android -->
+
+  <!-- iOS PREFERENCES -->
+
+  <preference name="target-device" value="universal" />
+  <preference name="prerendered-icon" value="true" />
+  <preference name="ios-statusbarstyle" value="black-opaque" />
+  <preference name="detect-data-types" value="false" />
+  <preference name="exit-on-suspend" value="false" />
+
+  <preference name="webviewbounce" value="false" />
+  <preference name="stay-in-webview" value="false" />
+  <preference name="show-splash-screen-spinner" value="false" />
+  <preference name="auto-hide-splash-screen" value="true" /> <!-- if set to false, the splash screen must be hidden using a JavaScript API -->
+
+  <!-- ANDROID PREFERENCES -->
+
+  <preference name="android-minSdkVersion" value="7" /> <!-- minimum Android 2.1 -->
+  <!-- <preference name="android-maxSdkVersion" value="19" /> maximum Android 4.4 -->
+  <preference name="android-targetSdkVersion" value="19" /> <!-- targeting Android 4.4 -->
+  <preference name="android-installLocation" value="auto" />
+  <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />
+  <preference name="splash-screen-duration" value="5000" />
+
+  <preference name="load-url-timeout" value="20000" />
+
+  <!-- PHONEGAP API FEATURES PREFERENCES -->
+
+  <preference name="permissions" value="none"/>
+  <!--
+  <feature name="http://api.phonegap.com/1.0/battery"/>
+  <feature name="http://api.phonegap.com/1.0/camera"/>
+  <feature name="http://api.phonegap.com/1.0/contacts"/>
+  <feature name="http://api.phonegap.com/1.0/file"/>
+  <feature name="http://api.phonegap.com/1.0/geolocation"/>
+  <feature name="http://api.phonegap.com/1.0/media"/>
+  <feature name="http://api.phonegap.com/1.0/network"/>
+  <feature name="http://api.phonegap.com/1.0/notification"/>
+  -->
+
+  <access origin="*" />
 
 </widget>
-
-<!--<?xml version="1.0" encoding="UTF-8" ?>-->
-<!--<widget xmlns   = "http://www.w3.org/ns/widgets"-->
-        <!--xmlns:gap   = "http://phonegap.com/ns/1.0"-->
-        <!--id          = "com.phonegap.example"-->
-        <!--versionCode = "10"-->
-        <!--version     = "1.0.0" >-->
-
-  <!--&lt;!&ndash; versionCode is optional and Android only &ndash;&gt;-->
-
-  <!--<name>CTA Conf</name>-->
-
-  <!--<description>-->
-    <!--Call to Action Conference-->
-  <!--</description>-->
-
-  <!--<author href="http://github.com/mattcoady" email="mattcoady@gmail.com">-->
-    <!--Matt Coady-->
-  <!--</author>-->
-
-  <!--<gap:plugin name="org.apache.cordova.statusbar"/>-->
-
-  <!--<gap:platform name="ios" />-->
-  <!--<gap:config-file platform="ios" parent="UIStatusBarHidden" overwrite="true">-->
-    <!--<true/>-->
-  <!--</gap:config-file>-->
-
-<!--</widget>-->
