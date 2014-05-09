@@ -3,10 +3,10 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.phonegap.ryanw.barcodescanner"
         version   = "2.0.0">
-  <name>PhoneGapBuild Tester</name>
+  <name>CTA Conf</name>
 
   <description>
-    Tests shit from PhoneGap Build.
+    Call to Action Conference App
   </description>
 
   <author href="http://phonegap.com" email="support@phonegap.com">
@@ -15,6 +15,7 @@
 
   <!-- third party plugins -->
   <gap:plugin name="org.apache.cordova.statusbar"/>
+  <gap:plugin name="com.verso.cordova.clipboard" version="0.1.0" />
 
   <gap:platform name="ios" />
 
