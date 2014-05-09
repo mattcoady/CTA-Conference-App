@@ -7,21 +7,42 @@
 
   <!-- versionCode is optional and Android only -->
 
-  <name>CTA Conf</name>
+  <name>PhoneGap Example</name>
 
   <description>
-    Call to Action Conference
+    An example for phonegap build docs.
   </description>
 
-  <author href="http://github.com/mattcoady" email="mattcoady@gmail.com">
-    Matt Coady
+  <author href="https://build.phonegap.com" email="support@phonegap.com">
+    Hardeep Shoker
   </author>
 
-  <gap:plugin name="org.apache.cordova.statusbar"/>
-
-  <gap:platform name="ios" />
-  <gap:config-file platform="ios" parent="UIStatusBarHidden" overwrite="true">
-    <true/>
-  </gap:config-file>
-
 </widget>
+
+<!--<?xml version="1.0" encoding="UTF-8" ?>-->
+<!--<widget xmlns   = "http://www.w3.org/ns/widgets"-->
+        <!--xmlns:gap   = "http://phonegap.com/ns/1.0"-->
+        <!--id          = "com.phonegap.example"-->
+        <!--versionCode = "10"-->
+        <!--version     = "1.0.0" >-->
+
+  <!--&lt;!&ndash; versionCode is optional and Android only &ndash;&gt;-->
+
+  <!--<name>CTA Conf</name>-->
+
+  <!--<description>-->
+    <!--Call to Action Conference-->
+  <!--</description>-->
+
+  <!--<author href="http://github.com/mattcoady" email="mattcoady@gmail.com">-->
+    <!--Matt Coady-->
+  <!--</author>-->
+
+  <!--<gap:plugin name="org.apache.cordova.statusbar"/>-->
+
+  <!--<gap:platform name="ios" />-->
+  <!--<gap:config-file platform="ios" parent="UIStatusBarHidden" overwrite="true">-->
+    <!--<true/>-->
+  <!--</gap:config-file>-->
+
+<!--</widget>-->
