@@ -131,6 +131,10 @@ img.sub-icon {
   border-bottom: 1px solid #f4f4f4;
 }
 
+.agenda-item a{
+  text-decoration: none;
+}
+
 .agenda-item .time{
   font-family: 'open_sansbold';
   color: #0090d1;
