@@ -1,6 +1,15 @@
+<head>
+  <script>
+    $('#copylink').click(function(event){
+      event.preventDefault;
+      alert('clicked');
+      successfulClick = alert('successful Click');
+      unsuccessfulClick = alert('unsuccessful Click');
+      window.plugins.copy('pA55w0rD',successfulClick,unsuccessfulClick);
+    })
+  </script>
+</head>
 <body class="ui-mobile-viewport ui-overlay-c">
-
-
 
 <div data-role="page" id="wifi" data-dom-cache="true" data-url="wifi" tabindex="0" class="ui-page ui-body-c ui-page-active" style="min-height: 853px;"><!-- page-->
 
@@ -10,8 +19,7 @@
   <h1>Wifi Name</h1>
   <h2>SFU Wifi</h2>
   <h1>Wifi Password</h1>
-  <h2><a href="javascript:window.plugins.copy('pA55w0rD',alert('success'),alert('fail'));">pA55w0rD</a></h2>
-  <input type="text">
+  <h2><a id="copylink" href="http://www.google.com">pA55w0rD</a></h2>
 
 
   <a href="docs-transitions.html" data-rel="back">Back</a>
