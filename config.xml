@@ -17,6 +17,8 @@
     Matt Coady
   </author>
 
+  <gap:plugin name="org.apache.cordova.statusbar"/>
+
   <gap:platform name="ios" />
   <gap:config-file platform="ios" parent="UIStatusBarHidden" overwrite="true">
     <true/>
