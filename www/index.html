@@ -1,19 +1,25 @@
 <!DOCTYPE html>
   <html>
     <head>
-      <link type="text/css" rel="stylesheet" href="css/style.css">
       <link type="text/css" rel="stylesheet" href="css/jquery.mobile-1.4.2.min.css">
+      <link type="text/css" rel="stylesheet" href="css/style.css">
       <script src="js/jquery-1.11.1.min.js"></script>
       <script src="js/jquery.mobile-1.4.2.min.js"></script>
       <script src="js/script.js"></script>
     </head>
     <body>
-      <header></header>
-      <h1>Call to Action</h1>
-      <section>
-        <a href="wifi.html" data-transition="slide">Wifi</a>
-        <a href="agenda.html" data-transition="slide">Agenda</a>
-        <a href="reviews.html" data-transition="slide">Reviews</a>
-      </section>
+    <div data-role="page" id="index" data-dom-cache="true" data-url="wifi" tabindex="0" class="ui-page ui-body-c ui-page-active" style="min-height: 853px;"><!-- page-->
+        <header>
+          <div id="header-date">Friday, September 12th</div>
+          <div id="header-location">Vancouver, Canada</div>
+        </header>
+        <img id="logo" src="css/images/call-to-action.png">
+        <section>
+          <a href="wifi.html" data-transition="slide"><img src="css/images/agenda.png">Agenda</a>
+          <a href="agenda.html" data-transition="slide"><img src="css/images/reviews.png">Reviews</a>
+          <a href="reviews.html" data-transition="slide"><img src="css/images/wifi.png">WIFI</a>
+        </section>
+      <footer>Powered by <span>Unbounce</span></footer>
+      </div>
     </body>
   </html>
