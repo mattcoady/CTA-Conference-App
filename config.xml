@@ -36,8 +36,8 @@
   <!--<icon src="img/icons/winphone/tileicon.png" gap:platform="winphone" gap:role="background" /> &lt;!&ndash; 72 pixels &ndash;&gt;-->
 
   <!-- SPLASH SCREENS -->
-
-  <gap:splash src="splash.png" /> <!-- default 320x480 pixels -->
+  <!--<gap:splash gap:platform="ios" height="1136" src="res/screen/ios/screen-iphone-portrait-568h-2x.png" width="640" />-->
+  <!--<gap:splash src="splash.png" /> &lt;!&ndash; default 320x480 pixels &ndash;&gt;-->
 
   <!--<gap:splash src="img/splash/ios/splash320x480.png" gap:platform="ios" width="320" height="480" /> &lt;!&ndash; iPhone & iPod Touch non retina &ndash;&gt;-->
   <!--<gap:splash src="img/splash/ios/splash640x960.png" gap:platform="ios" width="640" height="960" /> &lt;!&ndash; iPhone & iPod Touch retina 4- &ndash;&gt;-->
@@ -56,28 +56,29 @@
 
   <!-- PLATFORM SELECTION -->
 
-  <gap:platform name="ios" />
-  <gap:platform name="android" />
-  <gap:platform name="winphone" />
+  <!--<gap:platform name="ios" />-->
+  <!--<gap:platform name="android" />-->
+  <!--<gap:platform name="winphone" />-->
 
   <!-- GENERAL PREFERENCES -->
 
   <preference name="phonegap-version" value="3.3.0" />
   <preference name="orientation" value="default" />
-  <preference name="fullscreen" value="true" /> <!-- remove the upper bar on iOS and Android -->
+  <preference name="Fullscreen" value="true" />
+  <!--<preference name="fullscreen" value="true" /> &lt;!&ndash; remove the upper bar on iOS and Android &ndash;&gt;-->
 
   <!-- iOS PREFERENCES -->
 
-  <preference name="target-device" value="universal" />
-  <preference name="prerendered-icon" value="true" />
-  <preference name="ios-statusbarstyle" value="black-opaque" />
-  <preference name="detect-data-types" value="false" />
-  <preference name="exit-on-suspend" value="false" />
+  <!--<preference name="target-device" value="universal" />-->
+  <!--<preference name="prerendered-icon" value="true" />-->
+  <!--<preference name="ios-statusbarstyle" value="black-opaque" />-->
+  <!--<preference name="detect-data-types" value="false" />-->
+  <!--<preference name="exit-on-suspend" value="false" />-->
 
-  <preference name="webviewbounce" value="false" />
-  <preference name="stay-in-webview" value="false" />
-  <preference name="show-splash-screen-spinner" value="false" />
-  <preference name="auto-hide-splash-screen" value="true" /> <!-- if set to false, the splash screen must be hidden using a JavaScript API -->
+  <!--<preference name="webviewbounce" value="false" />-->
+  <!--<preference name="stay-in-webview" value="false" />-->
+  <!--<preference name="show-splash-screen-spinner" value="false" />-->
+  <!--<preference name="auto-hide-splash-screen" value="true" /> &lt;!&ndash; if set to false, the splash screen must be hidden using a JavaScript API &ndash;&gt;-->
 
   <!-- ANDROID PREFERENCES -->
 
