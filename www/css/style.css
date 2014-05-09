@@ -74,9 +74,10 @@
 .sub-page-content{
   position: absolute;
   top: 50%;
-  left: 50%;
-  width: 260px;
-  margin-left: -130px;
+  left: 0;
+  width: 100%;
+  max-height: 43%;
+  overflow: auto;
 }
 
 .sub-page-header-style{
@@ -110,6 +111,38 @@ img.sub-icon {
 
 .sub-page footer{
   color: #7a7a7a;
+}
+
+/* Agenda */
+
+.sub-page-content label{
+  background: #f5f5f5;
+  padding: .5em 0;
+  margin: 0;
+}
+
+.agenda-item{
+  text-align: left;
+  padding: 1em;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.agenda-item .time{
+  font-family: 'open_sansbold';
+  color: #0090d1;
+  font-size: 14px;
+}
+
+.agenda-item .title{
+  font-family: 'open_sansbold';
+  color: #7a7a7a;
+  font-size: 12px;
+}
+
+.agenda-item .speaker{
+  font-family: 'open_sansregular';
+  color: #7a7a7a;
+  font-size: 10px;
 }
 
 nav{
